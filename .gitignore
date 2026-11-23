@@ -1,0 +1,50 @@
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data, indexes, model caches and generated results
+data/
+indexes/
+output/
+logs/
+experiments/
+local_archive/
+.hf_cache/
+.artifacts/
+*.sqlite
+*.sqlite-*
+*.snapshot
+*.npz
+*.bundle
+
+# Locally copied optional BGE weights
+models/bge-small-en-v1.5/
+models/qwen3-embedding-0.6b/
+
+# Python environments and temporary files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest*/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+
+# Frontend builds, dependencies and browser verification outputs
+node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+*.tsbuildinfo
+
+.npm-cache/
+.pip-cache/
+*.npy
+*.faiss
+*.safetensors
+*.arrow

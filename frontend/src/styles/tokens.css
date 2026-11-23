@@ -1,0 +1,35 @@
+@font-face { font-family: 'Inter'; src: url('/fonts/InterVariable.woff2') format('woff2'); font-style: normal; font-weight: 100 900; font-display: swap; }
+
+:root {
+  /* PolyU Red: PolyU UBSN Branding Guide, https://www.polyu.edu.hk/ubsn/docdrive/download/UBSN_Branding_Guide.pdf */
+  --brand: #a02337;
+  --brand-hover: #861b2c;
+  --brand-soft: #29181f;
+  --brand-line: #663340;
+  --accent-text: #ed9aaa;
+  --nav: #0b0c10;
+  --nav-active: #202229;
+  --nav-muted: #9a9da8;
+  --ink: #f1f2f5;
+  --muted: #a0a4b2;
+  --border: #2a2d36;
+  --page: #111318;
+  --surface: #191c23;
+  --success: #78d5b0;
+  --success-soft: #152b24;
+  --warning: #e6bd76;
+  --warning-soft: #302719;
+  --info: #a4b9ea;
+  --info-soft: #1f2639;
+  --radius: 14px;
+  --sidebar-width: 224px;
+  --inspector-width: 336px;
+  --shadow: 0 12px 34px rgb(0 0 0 / 12%);
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  color-scheme: dark;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  color: var(--ink);
+  background: var(--page);
+}

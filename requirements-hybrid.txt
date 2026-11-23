@@ -1,0 +1,6 @@
+# Optional BGE and Qwen retrieval. Default BM25 does not import these packages.
+torch>=2.6,<3
+sentence-transformers>=3.4,<4
+transformers>=4.51,<5
+faiss-cpu>=1.9,<2
+numpy>=1.26,<3
