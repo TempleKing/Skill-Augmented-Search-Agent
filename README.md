@@ -99,5 +99,3 @@ The historical score is a reported result from the upstream baseline. The small 
 ## Limits and provenance
 
 The agent searches a fixed corpus and depends on an external LLM for planning and decision-making. Results can vary across provider versions and runs. Hybrid modes require locally prepared encoder weights and indexes. The workbench is intended for local research and demonstration.
-
-The project builds on the [upstream Gitee course project](https://gitee.com/zeng-qijie13/nlp-project) at commit `cd7818cc6e5dda5d077f96904c3d4cfe90c799cd` with local BGE and Qwen extensions. It uses [LangGraph](https://github.com/langchain-ai/langgraph), [BrowseComp-Plus](https://huggingface.co/datasets/Tevatron/browsecomp-plus-corpus), [FAISS](https://github.com/facebookresearch/faiss), [BGE](https://huggingface.co/BAAI/bge-small-en-v1.5), and [Qwen3-Embedding](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B). See [provenance and licensing](docs/provenance.md) for rights and attribution.
